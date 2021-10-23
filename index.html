@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="image/icon type">
+    <title>Spotify - Best Music app according to Forbes</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>My favourites</h1>
+            <div>
+                <div class="songcontrol">
+                    <div class="songItem">
+                        <img src="covers/makeyoumine.jpg" alt="" class="songIcon">
+                        <div class="songname">Make You Mine<div class="artist">Public</div></div>
+
+                        
+                    </div>
+                    <div class="playPause">
+                        <img src="equalizer.gif" alt="" class="equalizer">
+                        <img src="play.png" alt="" class="icons play">
+                        
+                    </div>
+                </div>
+                <div class="songcontrol">
+                    <div class="songItem">
+                        <img src="covers/beleiver.jpg" alt="" class="songIcon">
+                        <div class="songname">Beleiver<div class="artist">Imagine Dragons</div></div>
+
+                        
+                    </div>
+                    <div class="playPause">
+                        <img src="equalizer.gif" alt="" class="equalizer">
+                        <img src="play.png" alt="" class="icons play">
+                    </div>
+                </div>
+                <div class="songcontrol">
+                    <div class="songItem">
+                        <img src="covers/paradise.jpg" alt="" class="songIcon">
+                        <div class="songname">Paradise<div class="artist">Coldplay</div></div>
+
+                        
+                    </div>
+                    <div class="playPause">
+                        <img src="equalizer.gif" alt="" class="equalizer">
+                        <img src="play.png" alt="" class="icons play">
+                    </div>
+                </div>
+                <div class="songcontrol">
+                    <div class="songItem">
+                        <img src="covers/dhruv.jfif" alt="" class="songIcon">
+                        <div class="songname">Double Take<div class="artist">Dhruv</div></div>
+
+                        
+                    </div>
+                    <div class="playPause">
+                        <!-- <img src="equalizerWhite.gif" alt="" class="equalizer"> -->
+                        <img src="equalizer.gif" alt="" class="equalizer">
+                        <img src="play.png" alt="" class="icons play">
+                    </div>
+                </div>
+                
+                
+               
+            </div>
+        </div>
+
+        <div class="banner"><img src="playlistBanner.jpg" alt=""></div>
+        
+        
+    </div>
+    <div class="bottom">
+
+        <div class="coverName">
+            <img src="covers/makeYouMine.jpg" alt="" class="songIcon" id="currentSongIcon">
+            <div class="names" style="margin: 5px;">
+                <div id="currentSongName">Make You Mine
+                </div>
+                <div class="artist" id="currentArtist">Public</div>
+            </div>
+            
+
+        </div>
+        <div class="player">
+        <div class="iconsCont">
+            <!-- <i class="fas fa-play-circle"></i> -->
+            <img src="back.png" alt="" class="icons" id="back">
+            <img src="play.png" alt="" class="icons" id="masterPlay">
+            <img src="forward.png" alt="" class="icons" id="forward">
+            
+        </div>
+        <input type="range" name="range" id="progressBar" min="0" max="100" >
+    </div>
+        
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
